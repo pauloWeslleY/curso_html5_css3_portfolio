@@ -1,0 +1,32 @@
+//! <| === === === === === |> STYLES BANNER
+
+#banner__main {
+	height: 70vh;
+	background-image: url('../../image/photo-1.jpg');
+	background-size: cover;
+	padding-top: 15vh;
+
+	#banner__info {
+		width: 40%;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		color: var(--blue-10);
+		padding: 5rem;
+
+		img {
+			height: 12rem;
+			border-radius: 50%;
+			background-color: var(--orange);
+			margin-block: 3rem;
+		}
+
+		p {
+			background-color: var(--orange);
+			font-weight: 800;
+			width: 20rem;
+			margin-inline: auto;
+			padding: 1.5rem;
+		}
+	}
+}

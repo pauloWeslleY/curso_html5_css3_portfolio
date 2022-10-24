@@ -1,0 +1,19 @@
+//! <| === === === === === |> STYLES ABOUT
+
+#about__section {
+	text-align: center;
+	background-color: var(--orange);
+	color: var(--blue-10);
+	padding-top: 5rem;
+	height: 35rem;
+
+	h2 {
+		margin-bottom: 2rem;
+	}
+
+	p {
+		max-width: 65rem;
+		margin-inline: auto;
+		line-height: 3rem;
+	}
+}

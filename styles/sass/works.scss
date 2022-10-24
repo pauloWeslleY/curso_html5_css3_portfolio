@@ -1,0 +1,48 @@
+//! <| === === === === === |> STYLES WORKS
+
+#works__section {
+	text-align: center;
+	padding-top: 5rem;
+
+	h2 {
+		color: var(--orange);
+		margin-bottom: 3rem;
+	}
+
+	p {
+		margin-bottom: 5rem;
+	}
+
+	a {
+		font-weight: 800;
+		color: var(--orange);
+	}
+
+	.works__container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		max-width: 1200px;
+		margin-inline: auto;
+		margin-bottom: 5rem;
+
+		.work__hero {
+			flex: 1 1 20rem;
+			margin-inline: 2.5rem;
+			height: 30rem;
+			background-size: cover;
+			border-right: 0.2rem solid var(--orange);
+			border-bottom: 0.2rem solid var(--orange);
+		}
+
+		.project_one {
+			background-image: url('../../image/thumbnail1.jpg');
+		}
+		.project_two {
+			background-image: url('../../image/thumbnail2.jpg');
+		}
+		.project_three {
+			background-image: url('../../image/thumbnail3.jpg');
+		}
+	}
+}

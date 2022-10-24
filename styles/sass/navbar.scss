@@ -1,0 +1,50 @@
+//! <| === === === === === |> STYLES NAVBAR
+#navbar {
+	background: var(--orange);
+	color: var(--blue-10);
+	padding: 0 1.5rem;
+	height: 6rem;
+
+	h2 {
+		margin: 0;
+		margin-left: 5.5rem;
+		line-height: 6rem;
+	}
+
+	img {
+		height: 4rem;
+		transform: rotate(45deg);
+		position: absolute;
+		top: 1rem;
+	}
+
+	nav {
+		float: right;
+
+		ul {
+			margin-top: 1.6rem;
+
+			li {
+				margin: 0 1rem;
+
+				a {
+					color: var(--blue-10);
+
+					transition: all 0.2s ease-in-out;
+
+					&:hover {
+						color: var(--blue-20);
+						border-bottom: 0.1rem solid var(--blue-20);
+					}
+				}
+			}
+		}
+	}
+
+	nav,
+	h2,
+	ul,
+	li {
+		display: inline-block;
+	}
+}

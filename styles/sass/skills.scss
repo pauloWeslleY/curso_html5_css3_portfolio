@@ -1,0 +1,53 @@
+//! <| === === === === === |> STYLES SKILLS
+#skills__section {
+	margin-top: -10rem;
+	background-color: var(--blue-10);
+	width: 80%;
+	margin-inline: auto;
+	border: 0.1rem solid var(--blue-20);
+	border-radius: 1rem;
+
+	.container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+		.skills__container {
+			flex: 1 1 15rem;
+			text-align: center;
+			padding: 6rem 2.5rem;
+
+			h3 {
+				color: var(--orange);
+				font-size: 2rem;
+			}
+
+			p {
+				line-height: 2.5rem;
+			}
+
+			img {
+				height: 10rem;
+				padding: 1rem;
+				margin-bottom: 2.5rem;
+				border-top: 0.1rem solid var(--orange);
+				border-left: 0.1rem solid var(--orange);
+				border-bottom: 0.4rem solid var(--orange);
+				border-right: 0.4rem solid var(--orange);
+			}
+
+			.skills__subtitle {
+				font-weight: 800;
+				color: var(--orange);
+				margin-top: 3rem;
+				margin-bottom: 1.5rem;
+			}
+		}
+
+		.centered {
+			border-left: 0.1rem solid var(--blue-20);
+			border-right: 0.1rem solid var(--blue-20);
+		}
+	}
+}
